@@ -121,6 +121,18 @@ nav {
   color: var(--green-dark);
 }
 
+.section-dark .btn,
+.btn-outline {
+  border-color: var(--green-light);
+  color: var(--cream);
+}
+
+.section-dark .btn:hover,
+.btn-outline:hover {
+  background: var(--green-light);
+  color: var(--green-dark);
+}
+
 /* Sections */
 .section {
   padding: 6rem 2rem;
